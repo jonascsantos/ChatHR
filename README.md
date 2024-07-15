@@ -18,6 +18,16 @@ AI Chatbot specialized in HR questions related to the UK.
 ## Running locally
 
 Dev environment
+
+Create the env file and place the OpenAI API Key
+
+
+
+```env
+// .env.local
+OPENAI_API_KEY="sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+```
+
 ```sh
 npm install
 npm run dev
